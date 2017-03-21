@@ -14,7 +14,7 @@ env:
 install:
   - pip install -U platformio
   # install current build as a library with all dependencies
-  - platformio lib -g install file://.
+  - platformio lib -g install file://. || true
 
 script:
   - platformio ci --board=esp01
