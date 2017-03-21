@@ -1,0 +1,24 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SonoffDual	KEYWORD1
+
+SonoffDualButton	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setup	KEYWORD2
+handleButton	KEYWORD2
+setLed  KEYWORD2
+setRelays	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NONE	LITERAL1
+SHORT	LITERAL1
+LONG	LITERAL1
