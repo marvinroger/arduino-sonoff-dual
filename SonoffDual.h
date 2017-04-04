@@ -10,8 +10,6 @@ enum class SonoffDualButton : uint8_t {
 };
 
 namespace SonoffDualInternal {
-const uint8_t LED_PIN = 13;
-
 class SonoffDualClass {
  public:
   SonoffDualClass();
@@ -19,6 +17,10 @@ class SonoffDualClass {
   ::SonoffDualButton handleButton();
   void setLed(bool on);
   void setRelays(bool first, bool second);
+
+  const uint8_t LED_PIN = 13;
+  const uint8_t LED_ON = LOW;
+  const uint8_t LED_OFF = HIGH;
 };
 }
 

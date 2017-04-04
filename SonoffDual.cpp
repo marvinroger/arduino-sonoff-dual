@@ -35,7 +35,7 @@ SonoffDualButton SonoffDualClass::handleButton() {
 }
 
 void SonoffDualClass::setLed(bool on) {
-  digitalWrite(LED_PIN, on ? LOW : HIGH);
+  digitalWrite(LED_PIN, on ? LED_ON : LED_OFF);
 }
 
 void SonoffDualClass::setRelays(bool first, bool second) {
