@@ -12,7 +12,7 @@ SonoffDualButton	KEYWORD1
 
 setup	KEYWORD2
 handleButton	KEYWORD2
-setLed  KEYWORD2
+setLed	KEYWORD2
 setRelays	KEYWORD2
 
 #######################################
